@@ -1,0 +1,26 @@
+.container.signin
+	.signin-inner
+		.signin-photo
+			img
+		.signin-content
+			.signin-header
+				h2.logo
+				p
+			.input-field
+				input[type=email]
+				input[type=password]
+			.status
+				label
+					input[type=checkbox], email
+				a
+			button.btn-signin
+			.join-member
+				a
+			.easy-signin
+				span
+				p
+					(a > img) * 5
+		.gnb
+			(a > font-icon, span) * 5
+			
+			
